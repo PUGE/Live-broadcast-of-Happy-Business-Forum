@@ -1,0 +1,106 @@
+15:56:23.954 INFO  --------------------------- 开始编译 --------------------------- 
+15:56:23.954 INFO  程序运行目录: D:\work\Live broadcast of Happy Business Forum 
+15:56:23.954 INFO  首次启动! 
+15:56:23.954 INFO  生成版本号: o4jmgkkmz4d 
+15:56:23.963 INFO  清理资源文件夹: D:\work\Live broadcast of Happy Business Forum\dist\static 
+15:56:23.963 INFO  文件夹不存在: D:\work\Live broadcast of Happy Business Forum\dist\static 
+15:56:23.963 INFO  创建文件夹: D:\work\Live broadcast of Happy Business Forum\dist\static 
+15:56:23.963 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+15:56:23.964 DEBUG 读取网页标题: {TAG_14226_TAG} 
+15:56:23.964 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+15:56:23.965 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:23.965 INFO  开始处理模块: one 
+15:56:23.995 INFO  开始处理模块: one 
+15:56:23.996 DEBUG 使用文件缓存:D:\work\Live broadcast of Happy Business Forum\owo_modules\62a71225d5da5d149726ad63fa40e88d.owo 
+15:56:24.334 DEBUG 缓存模板: swiperBoxhttps://owo.ink/public/52f047cc63c0fc038ccb976e7ff1f6bf.page 
+15:56:24.382 DEBUG 模板one处理用时: 387 毫秒! 
+15:56:24.383 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.383 INFO  开始处理模块: one 
+15:56:24.383 DEBUG 使用文件缓存:D:\work\Live broadcast of Happy Business Forum\owo_modules\85365fd433c6ef9b2ea53bbabacabfc6.owo 
+15:56:24.393 DEBUG 缓存模板: a5Jkh9zomp95ftbWhttps://owo.ink/public/c06b88363697df616f96fa9f7fbc7c11.page 
+15:56:24.400 DEBUG 模板one处理用时: 17 毫秒! 
+15:56:24.401 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.401 INFO  开始处理模块: one 
+15:56:24.409 DEBUG 缓存模板: imageVideoBox./src/module/imageVideoBox.owo 
+15:56:24.414 DEBUG 模板one处理用时: 13 毫秒! 
+15:56:24.414 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.414 INFO  开始处理模块: one 
+15:56:24.436 DEBUG 缓存模板: imageBox./src/module/imageBox.owo 
+15:56:24.444 DEBUG 模板one处理用时: 30 毫秒! 
+15:56:24.445 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.445 INFO  开始处理模块: one 
+15:56:24.462 DEBUG 智能跳过打包imageBox./src/module/imageBox.owo的重复样式! 
+15:56:24.467 DEBUG 模板one处理用时: 22 毫秒! 
+15:56:24.467 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.467 INFO  开始处理模块: one 
+15:56:24.487 DEBUG 智能跳过打包imageBox./src/module/imageBox.owo的重复样式! 
+15:56:24.491 DEBUG 模板one处理用时: 24 毫秒! 
+15:56:24.492 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.492 INFO  开始处理模块: one 
+15:56:24.507 DEBUG 智能跳过打包imageBox./src/module/imageBox.owo的重复样式! 
+15:56:24.511 DEBUG 模板one处理用时: 18 毫秒! 
+15:56:24.511 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.511 INFO  开始处理模块: one 
+15:56:24.525 DEBUG 智能跳过打包imageBox./src/module/imageBox.owo的重复样式! 
+15:56:24.530 DEBUG 模板one处理用时: 19 毫秒! 
+15:56:24.530 DEBUG 模块 one 因名称重复被重命名为 one0 
+15:56:24.530 INFO  开始处理模块: one 
+15:56:24.530 DEBUG 使用文件缓存:D:\work\Live broadcast of Happy Business Forum\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+15:56:24.534 DEBUG 缓存模板: copyrighthttps://owo.ink/public/080195cd2dcfc878e55f9b7f9fa1c9b7.page 
+15:56:24.536 DEBUG 模板one处理用时: 6 毫秒! 
+15:56:24.539 DEBUG 缓存模板: one./src/page/one.page 
+15:56:24.542 DEBUG 模板one处理用时: 578 毫秒! 
+15:56:24.543 INFO  文件夹不存在: D:/work/Live broadcast of Happy Business Forum/dist/static/resource 
+15:56:24.544 INFO  创建文件夹: D:/work/Live broadcast of Happy Business Forum/dist/static/resource 
+15:56:24.545 DEBUG 处理资源: ["D:/work/Live broadcast of Happy Business Forum/src/resource/title-bg.png"] 
+15:56:24.545 DEBUG 资源目录: D:/work/Live broadcast of Happy Business Forum/dist/static/resource 
+15:56:24.546 DEBUG css中的资源处理完毕! 
+15:56:24.546 DEBUG 使用postcss处理样式，使用了1个插件! 
+15:56:24.593 INFO  文件夹不存在: D:\work\Live broadcast of Happy Business Forum\dist\static\css 
+15:56:24.593 INFO  创建文件夹: D:\work\Live broadcast of Happy Business Forum\dist\static\css 
+15:56:24.593 INFO  开始处理附属css中的资源 
+15:56:24.594 INFO  附属css中的资源处理完毕! 
+15:56:24.594 INFO  读取文件: D:\work\Live broadcast of Happy Business Forum\src\resource\smartphoto.css 
+15:56:24.594 INFO  附属css中的资源不需要处理! 
+15:56:24.594 INFO  读取文件: D:\work\Live broadcast of Happy Business Forum\src\resource\swiper.4.5.0.min.css 
+15:56:24.594 INFO  附属css中的资源不需要处理! 
+15:56:24.594 INFO  处理字体:{"FZDBSJT.TTF":"\n      <span class=\"text-box clear\">\n        <span class=\"red\">新闻</span>\n        <span class=\"black\">列表</span>\n      </span>\n    \n      <span class=\"text-box clear\">\n        <span class=\"red\">论坛</span>\n        <span class=\"black\">视频</span>\n      </span>\n    \n      <span class=\"text-box clear\">\n        <span class=\"red\">领导</span>\n        <span class=\"black\">致辞</span>\n      </span>\n    \n      <span class=\"text-box clear\">\n        <span class=\"red\">主旨</span>\n        <span class=\"black\">发言</span>\n      </span>\n    \n      <span class=\"text-box clear\">\n        <span class=\"red\">主题</span>\n        <span class=\"black\">演讲</span>\n      </span>\n    \n      <span class=\"text-box clear\">\n        <span class=\"red\">优秀案例</span>\n        <span class=\"black\">发布</span>\n      </span>\n    \n      <span class=\"text-box clear\">\n        <span class=\"red\">精彩</span>\n        <span class=\"black\">瞬间</span>\n      </span>\n    "} 
+15:56:24.739 INFO  使用postcss处理完毕! 用时: 193 毫秒 
+15:56:24.739 DEBUG 需要经过特殊处理的css: [[".page-swiperBox .swiper-box:",".swiper-box.page-swiperBox:"],[".page-swiperBox .swiper-box ",".swiper-box.page-swiperBox "],[".page-swiperBox .swiper-box{",".swiper-box.page-swiperBox{"],[".page-swiperBox .page-swiperBox:",".page-swiperBox.page-swiperBox:"],[".page-swiperBox .page-swiperBox ",".page-swiperBox.page-swiperBox "],[".page-swiperBox .page-swiperBox{",".page-swiperBox.page-swiperBox{"],[".page-swiperBox div:","div.page-swiperBox:"],[".page-swiperBox div ","div.page-swiperBox "],[".page-swiperBox div{","div.page-swiperBox{"],[".page-a5Jkh9zomp95ftbW .page-a5Jkh9zomp95ftbW:",".page-a5Jkh9zomp95ftbW.page-a5Jkh9zomp95ftbW:"],[".page-a5Jkh9zomp95ftbW .page-a5Jkh9zomp95ftbW ",".page-a5Jkh9zomp95ftbW.page-a5Jkh9zomp95ftbW "],[".page-a5Jkh9zomp95ftbW .page-a5Jkh9zomp95ftbW{",".page-a5Jkh9zomp95ftbW.page-a5Jkh9zomp95ftbW{"],[".page-a5Jkh9zomp95ftbW ul:","ul.page-a5Jkh9zomp95ftbW:"],[".page-a5Jkh9zomp95ftbW ul ","ul.page-a5Jkh9zomp95ftbW "],[".page-a5Jkh9zomp95ftbW ul{","ul.page-a5Jkh9zomp95ftbW{"],[".page-imageVideoBox .image-video-box:",".image-video-box.page-imageVideoBox:"],[".page-imageVideoBox .image-video-box ",".image-video-box.page-imageVideoBox "],[".page-imageVideoBox .image-video-box{",".image-video-box.page-imageVideoBox{"],[".page-imageVideoBox .page-imageVideoBox:",".page-imageVideoBox.page-imageVideoBox:"],[".page-imageVideoBox .page-imageVideoBox ",".page-imageVideoBox.page-imageVideoBox "],[".page-imageVideoBox .page-imageVideoBox{",".page-imageVideoBox.page-imageVideoBox{"],[".page-imageVideoBox div:","div.page-imageVideoBox:"],[".page-imageVideoBox div ","div.page-imageVideoBox "],[".page-imageVideoBox div{","div.page-imageVideoBox{"],[".page-imageBox .image-box-swiper-box:",".image-box-swiper-box.page-imageBox:"],[".page-imageBox .image-box-swiper-box ",".image-box-swiper-box.page-imageBox "],[".page-imageBox .image-box-swiper-box{",".image-box-swiper-box.page-imageBox{"],[".page-imageBox .page-imageBox:",".page-imageBox.page-imageBox:"],[".page-imageBox .page-imageBox ",".page-imageBox.page-imageBox "],[".page-imageBox .page-imageBox{",".page-imageBox.page-imageBox{"],[".page-imageBox div:","div.page-imageBox:"],[".page-imageBox div ","div.page-imageBox "],[".page-imageBox div{","div.page-imageBox{"],[".page-imageBox .image-box-swiper-box:",".image-box-swiper-box.page-imageBox:"],[".page-imageBox .image-box-swiper-box ",".image-box-swiper-box.page-imageBox "],[".page-imageBox .image-box-swiper-box{",".image-box-swiper-box.page-imageBox{"],[".page-imageBox .page-imageBox:",".page-imageBox.page-imageBox:"],[".page-imageBox .page-imageBox ",".page-imageBox.page-imageBox "],[".page-imageBox .page-imageBox{",".page-imageBox.page-imageBox{"],[".page-imageBox div:","div.page-imageBox:"],[".page-imageBox div ","div.page-imageBox "],[".page-imageBox div{","div.page-imageBox{"],[".page-imageBox .image-box-swiper-box:",".image-box-swiper-box.page-imageBox:"],[".page-imageBox .image-box-swiper-box ",".image-box-swiper-box.page-imageBox "],[".page-imageBox .image-box-swiper-box{",".image-box-swiper-box.page-imageBox{"],[".page-imageBox .page-imageBox:",".page-imageBox.page-imageBox:"],[".page-imageBox .page-imageBox ",".page-imageBox.page-imageBox "],[".page-imageBox .page-imageBox{",".page-imageBox.page-imageBox{"],[".page-imageBox div:","div.page-imageBox:"],[".page-imageBox div ","div.page-imageBox "],[".page-imageBox div{","div.page-imageBox{"],[".page-imageBox .image-box-swiper-box:",".image-box-swiper-box.page-imageBox:"],[".page-imageBox .image-box-swiper-box ",".image-box-swiper-box.page-imageBox "],[".page-imageBox .image-box-swiper-box{",".image-box-swiper-box.page-imageBox{"],[".page-imageBox .page-imageBox:",".page-imageBox.page-imageBox:"],[".page-imageBox .page-imageBox ",".page-imageBox.page-imageBox "],[".page-imageBox .page-imageBox{",".page-imageBox.page-imageBox{"],[".page-imageBox div:","div.page-imageBox:"],[".page-imageBox div ","div.page-imageBox "],[".page-imageBox div{","div.page-imageBox{"],[".page-imageBox .image-box-swiper-box:",".image-box-swiper-box.page-imageBox:"],[".page-imageBox .image-box-swiper-box ",".image-box-swiper-box.page-imageBox "],[".page-imageBox .image-box-swiper-box{",".image-box-swiper-box.page-imageBox{"],[".page-imageBox .page-imageBox:",".page-imageBox.page-imageBox:"],[".page-imageBox .page-imageBox ",".page-imageBox.page-imageBox "],[".page-imageBox .page-imageBox{",".page-imageBox.page-imageBox{"],[".page-imageBox div:","div.page-imageBox:"],[".page-imageBox div ","div.page-imageBox "],[".page-imageBox div{","div.page-imageBox{"],[".page-copyright .page-copyright:",".page-copyright.page-copyright:"],[".page-copyright .page-copyright ",".page-copyright.page-copyright "],[".page-copyright .page-copyright{",".page-copyright.page-copyright{"],[".page-copyright footer:","footer.page-copyright:"],[".page-copyright footer ","footer.page-copyright "],[".page-copyright footer{","footer.page-copyright{"],[".page-one .home:",".home.page-one:"],[".page-one .home ",".home.page-one "],[".page-one .home{",".home.page-one{"],[".page-one .page-one:",".page-one.page-one:"],[".page-one .page-one ",".page-one.page-one "],[".page-one .page-one{",".page-one.page-one{"],[".page-one div:","div.page-one:"],[".page-one div ","div.page-one "],[".page-one div{","div.page-one{"]] 
+15:56:24.740 INFO  正在处理script! 
+15:56:24.741 INFO  工程中只有一个页面! 
+15:56:24.742 INFO  文件夹不存在: D:\work\Live broadcast of Happy Business Forum\dist\static\js 
+15:56:24.742 INFO  创建文件夹: D:\work\Live broadcast of Happy Business Forum\dist\static\js 
+15:56:24.742 DEBUG 选择将js合并到html中! 
+15:56:25.458 INFO  js中的资源处理完毕! 
+15:56:25.458 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+15:56:25.459 DEBUG 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"smartphoto","src":"./src/resource/smartphoto.js"},{"name":"main","src":"./src/main.js","resource":true}] 
+15:56:25.459 DEBUG 外部脚本数量: 4 
+15:56:25.459 DEBUG 处理脚本: jquery1.11.0 
+15:56:25.459 DEBUG 网络脚本: jquery1.11.0 
+15:56:25.459 DEBUG 处理脚本: swiper.4.5.0 
+15:56:25.459 INFO  读取文件: D:\work\Live broadcast of Happy Business Forum\src\resource\swiper.4.5.0.min.js 
+15:56:25.459 DEBUG 处理脚本: smartphoto 
+15:56:25.459 INFO  读取文件: D:\work\Live broadcast of Happy Business Forum\src\resource\smartphoto.js 
+15:56:25.459 DEBUG 处理脚本: main 
+15:56:25.459 INFO  读取文件: D:\work\Live broadcast of Happy Business Forum\src\main.js 
+15:56:25.459 DEBUG 输出scriptData 
+15:56:25.460 DEBUG 准备输出html! 
+15:56:25.460 DEBUG 处理资源: ["D:/work/Live broadcast of Happy Business Forum/src/resource/main-image.jpg","D:/work/Live broadcast of Happy Business Forum/src/resource/play-button.png"] 
+15:56:25.460 DEBUG 资源目录: D:/work/Live broadcast of Happy Business Forum/dist/static/resource 
+15:56:25.462 INFO  发送重新页面需要刷新命令! 
+15:56:25.512 INFO  主要逻辑文件写出成功! 
+15:56:25.515 INFO  读取成功: D:\work\Live broadcast of Happy Business Forum\src\main.css 
+15:56:25.516 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+15:56:25.516 INFO  读取成功: D:\work\Live broadcast of Happy Business Forum\src\main.js 
+15:56:25.519 INFO  读取成功: D:\work\Live broadcast of Happy Business Forum\src\resource\smartphoto.css 
+15:56:25.599 INFO  读取成功: D:\work\Live broadcast of Happy Business Forum\src\resource\swiper.4.5.0.min.css 
+15:56:25.657 INFO  写入文件: D:\work\Live broadcast of Happy Business Forum\dist\static\css\main.css 
+15:56:25.660 INFO  写入文件: D:\work\Live broadcast of Happy Business Forum\dist\static\js\main.js 
+15:56:25.660 INFO  写入文件: D:\work\Live broadcast of Happy Business Forum\dist\static\js\autoReload.js 
+15:56:25.663 INFO  写入文件: D:\work\Live broadcast of Happy Business Forum\dist\static\css\smartphoto.css 
+15:56:25.665 INFO  写入文件: D:\work\Live broadcast of Happy Business Forum\dist\static\css\swiper4.5.0.css 
+15:56:25.692 INFO  读取成功: D:\work\Live broadcast of Happy Business Forum\src\resource\smartphoto.js 
+15:56:25.693 INFO  读取成功: D:\work\Live broadcast of Happy Business Forum\src\resource\swiper.4.5.0.min.js 
+15:56:25.695 INFO  写入文件: D:\work\Live broadcast of Happy Business Forum\dist\static\js\smartphoto.js 
+15:56:25.696 INFO  写入文件: D:\work\Live broadcast of Happy Business Forum\dist\static\js\swiper.4.5.0.js 

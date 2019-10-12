@@ -1,0 +1,164 @@
+<template>
+  <div class="home">
+    <img class="main-image" src="@|main-image.jpg|">
+    <temple name="swiperBox"  src="https://owo.ink/public/52f047cc63c0fc038ccb976e7ff1f6bf.page"></temple>
+    <!-- 新闻列表 -->
+    <div class="title-bar" font="FZDBSJT.TTF">
+      <span class="text-box clear">
+        <span class="red">新闻</span>
+        <span class="black">列表</span>
+      </span>
+    </div>
+    <temple name="a5Jkh9zomp95ftbW"  src="https://owo.ink/public/c06b88363697df616f96fa9f7fbc7c11.page"></temple>
+    <!-- 论坛视频 -->
+    <div class="title-bar" font="FZDBSJT.TTF">
+      <span class="text-box clear">
+        <span class="red">论坛</span>
+        <span class="black">视频</span>
+      </span>
+    </div>
+    <temple name="imageVideoBox"  src="./src/module/imageVideoBox.owo"></temple>
+    <!-- 领导致辞 -->
+    <div class="title-bar" font="FZDBSJT.TTF">
+      <span class="text-box clear">
+        <span class="red">领导</span>
+        <span class="black">致辞</span>
+      </span>
+    </div>
+    <temple name="imageBox"  src="./src/module/imageBox.owo" data="{{data.videoList1}}"></temple>
+    <!-- 主旨发言 -->
+    <div class="title-bar" font="FZDBSJT.TTF">
+      <span class="text-box clear">
+        <span class="red">主旨</span>
+        <span class="black">发言</span>
+      </span>
+    </div>
+    <temple name="imageBox"  src="./src/module/imageBox.owo" data="{{data.videoList2}}"></temple>
+    <!-- 主题演讲 -->
+    <div class="title-bar" font="FZDBSJT.TTF">
+      <span class="text-box clear">
+        <span class="red">主题</span>
+        <span class="black">演讲</span>
+      </span>
+    </div>
+    <temple name="imageBox"  src="./src/module/imageBox.owo" data="{{data.videoList3}}"></temple>
+    <!-- 优秀案例发布 -->
+    <div class="title-bar" font="FZDBSJT.TTF">
+      <span class="text-box clear">
+        <span class="red">优秀案例</span>
+        <span class="black">发布</span>
+      </span>
+    </div>
+    <temple name="imageBox"  src="./src/module/imageBox.owo" data="{{data.videoList4}}"></temple>
+    <!-- 精彩瞬间 -->
+    <div class="title-bar" font="FZDBSJT.TTF">
+      <span class="text-box clear">
+        <span class="red">精彩</span>
+        <span class="black">瞬间</span>
+      </span>
+    </div>
+    <temple name="imageBox"  src="./src/module/imageBox.owo" data="{{data.videoList5}}"></temple>
+    <temple name="copyright"  src="https://owo.ink/public/080195cd2dcfc878e55f9b7f9fa1c9b7.page"></temple>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      videoList1: [
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "1全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "2全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "3全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "4全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "5全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "6全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "7全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "8全省“法治进校园”巡讲团首站——晋中", id: 0},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "9全省“法治进校园”巡讲团首站——晋中", id: 0},
+      ],
+      videoList2: [
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "2-1全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "2-2全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "2-3全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "2-4全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "2-5全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "2-6全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "2-7全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "2-8全省“法治进校园”巡讲团首站——晋中", id: 1},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "2-9全省“法治进校园”巡讲团首站——晋中", id: 1},
+      ],
+      videoList3: [
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "3-1全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "3-2全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "3-3全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "3-4全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "3-5全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "3-6全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "3-7全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "3-8全省“法治进校园”巡讲团首站——晋中", id: 2},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "3-9全省“法治进校园”巡讲团首站——晋中", id: 2},
+      ],
+      videoList4: [
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "4-1全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "4-2全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "4-3全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "4-4全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "4-5全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "4-6全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "4-7全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "4-8全省“法治进校园”巡讲团首站——晋中", id: 3},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "4-9全省“法治进校园”巡讲团首站——晋中", id: 3},
+      ],
+      videoList5: [
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "5-1全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "5-2全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "5-3全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "5-4全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "5-5全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "5-6全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "5-7全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "5-8全省“法治进校园”巡讲团首站——晋中", id: 4},
+        {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "5-9全省“法治进校园”巡讲团首站——晋中", id: 4},
+      ]
+    },
+    created: function () {
+      setTimeout(() => {
+        new SmartPhoto(".smartphoto")
+      }, 500)
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-image {
+  width: 100%;
+  display: block;
+}
+.title-bar {
+  height: 80px;
+  margin: 10px 2%;
+  line-height: 80px;
+  text-align: center;
+  font-size: 40px;
+  pointer-events: none;
+  background-repeat-y: no-repeat;
+  background-position: center;
+  background-image: url('@|title-bg.png|');
+  span {
+    display: inline-block;
+  }
+  .red {
+    color: #c92e35;
+    float: left;
+  }
+  .black {
+    color: #303030;
+    float: left;
+  }
+  .text-box {
+    background-color: white;
+    padding: 0 15px;
+  }
+}
+</style>
