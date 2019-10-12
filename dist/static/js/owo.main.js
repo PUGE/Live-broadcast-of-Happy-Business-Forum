@@ -1,4 +1,4 @@
-// Sat Oct 12 2019 15:56:25 GMT+0800 (GMT+08:00)
+// Sat Oct 12 2019 17:25:52 GMT+0800 (GMT+08:00)
 
 /* 方法合集 */
 var _owo = {
@@ -6,8 +6,15 @@ var _owo = {
   runCreated: function (pageFunction, entryDom) {
     try {
       // console.log(pageFunction)
-      var copyPageFunction = JSON.parse(JSON.stringify(pageFunction))
+      var copyPageFunction = {}
+      for (const key in pageFunction) {
+        if (pageFunction.hasOwnProperty(key)) {
+          const element = pageFunction[key]
+          copyPageFunction[key] = element
+        }
+      }
       // 确保created事件只被执行一次
+      // console.log(copyPageFunction)
       if (!pageFunction["_isCreated"]) {
         pageFunction._isCreated = true
         if (pageFunction.created) {
