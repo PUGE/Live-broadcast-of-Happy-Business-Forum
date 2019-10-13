@@ -1,0 +1,348 @@
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.swiper-box.page-swiperBox {
+  height: 60vw;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.swiper-box.page-swiperBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-box.page-swiperBox .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: calc(100% - 20px);
+  font-size: 14px;
+}
+
+.swiper-box.page-swiperBox .swiper-container {
+  width: 100%;
+  height: 60vw;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-box.page-swiperBox .swiper-container .pagination {
+  position: absolute;
+  bottom: 3px;
+  left: unset;
+  right: 10px;
+  width: unset;
+  z-index: 12;
+}
+
+.swiper-box.page-swiperBox .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.page-swiperBox .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #888c8d;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #555 inset;
+}
+
+.page-swiperBox .swiper-pagination-bullet-active {
+  background-color: #72120f;
+}
+
+.page-swiperBox a {
+  text-decoration: none;
+}
+
+.page-swiperBox .swiper-slide {
+  position: relative;
+}
+              [font="FZDBSJT.TTF"] {
+                font-family: 'FZDBSJT';
+              }
+              @font-face {
+                font-family: 'FZDBSJT';
+                src: url('../font/FZDBSJT.eot');
+                src: url('../font/FZDBSJT.eot?#iefix') format('embedded-opentype'),
+                  url('../font/FZDBSJT.woff') format('woff'),
+                  url('../font/FZDBSJT.ttf')  format('truetype'),
+                  url('../font/FZDBSJT.svg#MicrosoftYaHei') format('svg');
+              }
+            
+ul.page-a5Jkh9zomp95ftbW {
+  padding: 0;
+  margin: 0 5%;
+}
+
+.page-a5Jkh9zomp95ftbW li {
+  color: #333333;
+  line-height: 38px;
+  font-size: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.page-a5Jkh9zomp95ftbW li a {
+  color: black;
+  text-decoration: none;
+}
+
+.page-a5Jkh9zomp95ftbW li a:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+
+.page-a5Jkh9zomp95ftbW li .time {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  font-size: 13px;
+  clear: both;
+}
+
+.page-a5Jkh9zomp95ftbW li {
+  overflow: hidden;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  padding-left: 15px;
+  background-image: url('http://opinion.people.com.cn/img/MAIN/2014/06/114590/images/dot.gif');
+}
+
+.page-a5Jkh9zomp95ftbW a {
+  height: 36px;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+ul.page-a5Jkh9zomp95ftbW {
+  padding: 0;
+}
+.image-video-box.page-imageVideoBox {
+  width: 100%;
+  height: 56vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-video-box.page-imageVideoBox video,
+.image-video-box.page-imageVideoBox .play-button-box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.image-video-box.page-imageVideoBox .show-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.image-video-box.page-imageVideoBox .play-button-box {
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.image-video-box.page-imageVideoBox .play-button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.image-box-swiper-box.page-imageBox {
+  height: 76vw;
+  overflow: hidden;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.image-box-swiper-box.page-imageBox img {
+  width: 100%;
+  height: calc(100% - 25px);
+  display: block;
+}
+
+.image-box-swiper-box.page-imageBox a {
+  width: 100%;
+  height: calc(100% - 25px);
+  display: block;
+  position: relative;
+}
+
+.image-box-swiper-box.page-imageBox a img {
+  height: 100%;
+}
+
+.image-box-swiper-box.page-imageBox .image-box-swiper-container {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.image-box-swiper-box.page-imageBox .image-box-swiper-container .image-box-pagination {
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.image-box-swiper-box.page-imageBox .swiper-wrapper .text {
+  height: 25px;
+  overflow: hidden;
+  width: 98%;
+  padding: 0 1%;
+  line-height: 25px;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+}
+
+.page-imageBox .swiper-wrapper {
+  height: 33vw;
+}
+
+.page-imageBox .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #cccccc;
+  position: relative;
+  cursor: pointer;
+}
+
+.page-imageBox .swiper-pagination-bullet-active {
+  background-color: #cc3433;
+}
+
+.page-imageBox a {
+  text-decoration: none;
+}
+
+.page-imageBox .swiper-slide {
+  position: relative;
+}
+footer {
+  color: #000000;
+  font-size: 12px;
+  background-color: #ffffff;
+  padding: 40px 0;
+  height: 70px;
+}
+
+p {
+  margin: 12px 0;
+  width: 100%;
+  display: inline-block;
+  line-height: 20px;
+  text-align: center;
+}
+.page-one .main-image {
+  width: 100%;
+  display: block;
+}
+
+.page-one .title-bar {
+  height: 50px;
+  margin: 10px 2%;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  pointer-events: none;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-image: url('../resource/title-bg.png');
+}
+
+.page-one .title-bar span {
+  display: inline-block;
+}
+
+.page-one .title-bar .red {
+  color: #c92e35;
+  float: left;
+}
+
+.page-one .title-bar .black {
+  color: #303030;
+  float: left;
+}
+
+.page-one .title-bar .text-box {
+  background-color: white;
+  padding: 0 15px;
+}

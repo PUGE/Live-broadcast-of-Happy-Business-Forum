@@ -1,44 +1,222 @@
-// Sat Oct 12 2019 17:25:52 GMT+0800 (GMT+08:00)
+// Sun Oct 13 2019 18:28:15 GMT+0800 (GMT+08:00)
+
+// 存储页面基本信息
+var owo = {
+  // 手机入口
+  phoneEnter: "loading",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "one": {
+    "data": {},
+    "created": function created() {
+      setTimeout(function () {
+        new SmartPhoto(".smartphoto");
+      }, 500);
+    },
+    "template": {
+      "swiperBox": {
+        "data": {},
+        "created": function created() {
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            new Swiper(owo.query('.swiper-container')[0], {
+              pagination: {
+                el: owo.query('.pagination')[0]
+              },
+              loop: true,
+              paginationClickable: true
+            });
+          }, 0);
+        },
+        "prop": {}
+      },
+      "a5Jkh9zomp95ftbW": {
+        "prop": {}
+      },
+      "imageVideoBox": {
+        "created": function created() {},
+        "play": function play() {
+          owo.query('.show-image')[0].style.display = 'none';
+          owo.query('.play-button-box')[0].style.display = 'none';
+          owo.query('video')[0].play();
+        },
+        "pause": function pause() {
+          owo.query('video')[0].pause();
+          owo.query('.play-button-box')[0].style.display = 'block';
+        },
+        "ended": function ended() {
+          owo.query('.play-button-box')[0].style.display = 'block';
+        },
+        "prop": {}
+      },
+      "imageBox": {
+        "created": function created() {
+          var _this = this;
+
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            // console.log(this.$el.getElementsByClassName('image-box-swiper-container')[0])
+            new Swiper(_this.$el.getElementsByClassName('image-box-swiper-container')[0], {
+              slidesPerView: 2,
+              slidesPerColumn: 2,
+              spaceBetween: 10,
+              pagination: {
+                clickable: true,
+                el: _this.$el.getElementsByClassName('image-box-pagination')[0]
+              }
+            });
+          }, 0);
+        },
+        "click": function click() {
+          console.log(this);
+        },
+        "prop": {
+          "test": "sd1dd"
+        }
+      },
+      "imageBox-1": {
+        "created": function created() {
+          var _this2 = this;
+
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            // console.log(this.$el.getElementsByClassName('image-box-swiper-container')[0])
+            new Swiper(_this2.$el.getElementsByClassName('image-box-swiper-container')[0], {
+              slidesPerView: 2,
+              slidesPerColumn: 2,
+              spaceBetween: 10,
+              pagination: {
+                clickable: true,
+                el: _this2.$el.getElementsByClassName('image-box-pagination')[0]
+              }
+            });
+          }, 0);
+        },
+        "click": function click() {
+          console.log(this);
+        },
+        "prop": {
+          "test": "sddd"
+        }
+      },
+      "imageBox-2": {
+        "created": function created() {
+          var _this3 = this;
+
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            // console.log(this.$el.getElementsByClassName('image-box-swiper-container')[0])
+            new Swiper(_this3.$el.getElementsByClassName('image-box-swiper-container')[0], {
+              slidesPerView: 2,
+              slidesPerColumn: 2,
+              spaceBetween: 10,
+              pagination: {
+                clickable: true,
+                el: _this3.$el.getElementsByClassName('image-box-pagination')[0]
+              }
+            });
+          }, 0);
+        },
+        "click": function click() {
+          console.log(this);
+        },
+        "prop": {
+          "test": "s3ddd"
+        }
+      },
+      "imageBox-3": {
+        "created": function created() {
+          var _this4 = this;
+
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            // console.log(this.$el.getElementsByClassName('image-box-swiper-container')[0])
+            new Swiper(_this4.$el.getElementsByClassName('image-box-swiper-container')[0], {
+              slidesPerView: 2,
+              slidesPerColumn: 2,
+              spaceBetween: 10,
+              pagination: {
+                clickable: true,
+                el: _this4.$el.getElementsByClassName('image-box-pagination')[0]
+              }
+            });
+          }, 0);
+        },
+        "click": function click() {
+          console.log(this);
+        },
+        "prop": {
+          "test": "sddd11"
+        }
+      },
+      "imageBox-4": {
+        "created": function created() {
+          var _this5 = this;
+
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            // console.log(this.$el.getElementsByClassName('image-box-swiper-container')[0])
+            new Swiper(_this5.$el.getElementsByClassName('image-box-swiper-container')[0], {
+              slidesPerView: 2,
+              slidesPerColumn: 2,
+              spaceBetween: 10,
+              pagination: {
+                clickable: true,
+                el: _this5.$el.getElementsByClassName('image-box-pagination')[0]
+              }
+            });
+          }, 0);
+        },
+        "click": function click() {
+          console.log(this);
+        },
+        "prop": {
+          "test": "s22ddd"
+        }
+      },
+      "copyright": {
+        "prop": {}
+      }
+    }
+  }
+};
 
 /* 方法合集 */
 var _owo = {
   /* 运行页面初始化方法 */
   runCreated: function (pageFunction, entryDom) {
     try {
-      // console.log(pageFunction)
-      var copyPageFunction = {}
-      for (const key in pageFunction) {
-        if (pageFunction.hasOwnProperty(key)) {
-          const element = pageFunction[key]
-          copyPageFunction[key] = element
-        }
-      }
       // 确保created事件只被执行一次
-      // console.log(copyPageFunction)
-      if (!pageFunction["_isCreated"]) {
+      if (pageFunction.created && !pageFunction["_isCreated"]) {
         pageFunction._isCreated = true
-        if (pageFunction.created) {
-          copyPageFunction.$el = entryDom
-          pageFunction.created.apply(copyPageFunction)
-        }
+        pageFunction.created.apply(pageFunction)
       }
+      
       // 模板插值处理
-      _owo.showHandle(pageFunction)
-
+      _owo.innerTextHandle(pageFunction)
+      
       // console.log(pageFunction)
       if (pageFunction.show) {
-        copyPageFunction.$el = entryDom
-        pageFunction.show.apply(copyPageFunction)
+        pageFunction.show.apply(pageFunction)
       }
-    }
-    catch (e) {
+    } catch (e) {
       console.error(e)
     }
   }
 }
 
-
 _owo.getValFromObj = function (str, value) {
+  if (!str) return undefined
   // 如果模块没有数据则直接返回null
   if (!value) value = window
   var arr = str.split('.')
@@ -53,20 +231,21 @@ _owo.getValFromObj = function (str, value) {
   return value
 }
 
-_owo.showHandle = function (pageFunction) {
-  var linkList = pageFunction.$el.querySelectorAll('[innerText]')
+// 模板插值处理
+_owo.innerTextHandle = function (pageFunction) {
+  var linkList = pageFunction.$el.querySelectorAll('[o-innertext]')
   for (var ind = 0; ind < linkList.length; ind++) {
     var element = linkList[ind]
-    var dataFor = element.getAttribute("innerText")
+    var dataFor = element.getAttribute("o-innertext")
     // 获取对应的值
     var value = _owo.getValFromObj(dataFor, pageFunction)
-    if (value == undefined) {
-      // console.log('从全局获取值!')
-      value = _owo.getValFromObj(dataFor)
-    }
+    // 从全局获取值!
+    if (value == undefined) { value = _owo.getValFromObj(dataFor) }
     element.innerText = value
   }
 }
+
+
 
 // 判断是否为手机
 _owo.isMobi = navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null
@@ -203,22 +382,15 @@ _owo.handlePage = function (newPageFunction, entryDom) {
   // console.log(entryDom)
   newPageFunction['$el'] = entryDom
   // console.log(newPageFunction)
-  newPageFunction._isCreated = false
   _owo.runCreated(newPageFunction, entryDom)
   // debugger
   // 判断页面是否有下属模板,如果有运行所有模板的初始化方法
   for (var key in newPageFunction.template) {
     var templateScript = newPageFunction.template[key]
-    // 待修复,临时获取方式,这种方式获取到的dom不准确
-    var childDom = entryDom.querySelectorAll('[template="' + key +'"]')
-    if (!childDom[0]) {
-      console.error('组件丢失:', key)
-      continue
-    }
-    for (var ind = 0; ind < childDom.length; ind++) {
-      // 递归处理
-      _owo.handlePage(templateScript, childDom[ind])
-    }
+    var childDom = entryDom.querySelector('[template="' + key +'"]')
+    // 判断相关模块是否在存在
+    if (!childDom) {continue}
+    _owo.handlePage(templateScript, childDom)
   }
 }// 单页面-页面资源加载完毕事件
 _owo.showPage = function() {

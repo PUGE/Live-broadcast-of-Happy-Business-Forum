@@ -2,7 +2,7 @@
 .swiper-box
   .swiper-container.clear
     .swiper-wrapper
-      .swiper-slide(:for="item in data.swiperBoxList")
+      .swiper-slide(:for="item in data._swiperBoxList")
         img(src="{{item.src}}" width="683" height="435")
         .text {{item.text}}
     .pagination
@@ -12,7 +12,7 @@
 <script>
   module.exports = {
     data: {
-      swiperBoxList: [
+      _swiperBoxList: [
         {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
         {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
         {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},

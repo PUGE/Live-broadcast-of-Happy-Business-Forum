@@ -2,7 +2,7 @@
 .image-box-swiper-box
   .image-box-swiper-container.clear
     .swiper-wrapper
-      .swiper-slide(:for="(item, ind) in prop.data")
+      .swiper-slide(:for="(item, ind) in prop._data")
         a(href="{{item.src}}" class="smartphoto" data-caption="{{item.text}}" data-id="{{ind}}" data-group="{{item.id}}")
           img(src="{{item.src}}" width="683" height="435")
         .text {{item.text}}
@@ -11,10 +11,7 @@
 
 <script>
   module.exports = {
-    data: {
-    },
     created: function () {
-      console.log(this)
       // 轮播图展示区域swiper
       setTimeout(() => {
         // console.log(this.$el.getElementsByClassName('image-box-swiper-container')[0])
