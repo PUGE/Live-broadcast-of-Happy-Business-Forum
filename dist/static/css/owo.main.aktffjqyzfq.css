@@ -118,17 +118,20 @@ li {
 .page-swiperBox .swiper-slide {
   position: relative;
 }
-              [font="FZDBSJT.TTF"] {
-                font-family: 'FZDBSJT';
-              }
-              @font-face {
-                font-family: 'FZDBSJT';
-                src: url('../font/FZDBSJT.eot');
-                src: url('../font/FZDBSJT.eot?#iefix') format('embedded-opentype'),
-                  url('../font/FZDBSJT.woff') format('woff'),
-                  url('../font/FZDBSJT.ttf')  format('truetype'),
-                  url('../font/FZDBSJT.svg#MicrosoftYaHei') format('svg');
-              }
+
+[font="FZDBSJT.TTF"] {
+  font-family: 'FZDBSJT';
+  /* 如果修改标题使用下面的隐藏上面的 */
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'FZDBSJT';
+  src: url('../font/FZDBSJT.eot');
+  src: url('../font/FZDBSJT.eot?#iefix') format('embedded-opentype'),
+    url('../font/FZDBSJT.woff') format('woff'),
+    url('../font/FZDBSJT.ttf')  format('truetype'),
+    url('../font/FZDBSJT.svg#MicrosoftYaHei') format('svg');
+}
             
 ul.page-a5Jkh9zomp95ftbW {
   padding: 0;
@@ -146,6 +149,9 @@ ul.page-a5Jkh9zomp95ftbW {
 .page-a5Jkh9zomp95ftbW li a {
   color: black;
   text-decoration: none;
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
 }
 
 .page-a5Jkh9zomp95ftbW li a:hover {

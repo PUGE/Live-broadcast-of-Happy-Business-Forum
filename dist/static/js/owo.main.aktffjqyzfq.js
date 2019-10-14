@@ -1,4 +1,4 @@
-// Sun Oct 13 2019 18:28:15 GMT+0800 (GMT+08:00)
+// Mon Oct 14 2019 08:23:48 GMT+0800 (GMT+08:00)
 
 // 存储页面基本信息
 var owo = {
@@ -46,15 +46,26 @@ owo.script = {
       "imageVideoBox": {
         "created": function created() {},
         "play": function play() {
+          this.$event.stopPropagation()
+          this.$event.preventDefault()
+          console.log(this)
           owo.query('.show-image')[0].style.display = 'none';
           owo.query('.play-button-box')[0].style.display = 'none';
-          owo.query('video')[0].play();
+          owo.query('.video-play')[0].play();
         },
-        "pause": function pause() {
-          owo.query('video')[0].pause();
+        "pause": function pause(e) {
+          // console.log('sdsd')
+          this.$event.stopPropagation()
+          this.$event.preventDefault()
+          owo.query('.video-play')[0].pause();
           owo.query('.play-button-box')[0].style.display = 'block';
+          return
         },
         "ended": function ended() {
+          console.log('停止')
+          this.$event.stopPropagation()
+          this.$event.preventDefault()
+          owo.query('.video-play')[0].pause()
           owo.query('.play-button-box')[0].style.display = 'block';
         },
         "prop": {}
@@ -77,12 +88,7 @@ owo.script = {
             });
           }, 0);
         },
-        "click": function click() {
-          console.log(this);
-        },
-        "prop": {
-          "test": "sd1dd"
-        }
+        "prop": {}
       },
       "imageBox-1": {
         "created": function created() {
@@ -102,12 +108,7 @@ owo.script = {
             });
           }, 0);
         },
-        "click": function click() {
-          console.log(this);
-        },
-        "prop": {
-          "test": "sddd"
-        }
+        "prop": {}
       },
       "imageBox-2": {
         "created": function created() {
@@ -127,12 +128,7 @@ owo.script = {
             });
           }, 0);
         },
-        "click": function click() {
-          console.log(this);
-        },
-        "prop": {
-          "test": "s3ddd"
-        }
+        "prop": {}
       },
       "imageBox-3": {
         "created": function created() {
@@ -152,12 +148,7 @@ owo.script = {
             });
           }, 0);
         },
-        "click": function click() {
-          console.log(this);
-        },
-        "prop": {
-          "test": "sddd11"
-        }
+        "prop": {}
       },
       "imageBox-4": {
         "created": function created() {
@@ -177,12 +168,7 @@ owo.script = {
             });
           }, 0);
         },
-        "click": function click() {
-          console.log(this);
-        },
-        "prop": {
-          "test": "s22ddd"
-        }
+        "prop": {}
       },
       "copyright": {
         "prop": {}
@@ -202,9 +188,6 @@ var _owo = {
         pageFunction.created.apply(pageFunction)
       }
       
-      // 模板插值处理
-      _owo.innerTextHandle(pageFunction)
-      
       // console.log(pageFunction)
       if (pageFunction.show) {
         pageFunction.show.apply(pageFunction)
@@ -212,36 +195,6 @@ var _owo = {
     } catch (e) {
       console.error(e)
     }
-  }
-}
-
-_owo.getValFromObj = function (str, value) {
-  if (!str) return undefined
-  // 如果模块没有数据则直接返回null
-  if (!value) value = window
-  var arr = str.split('.')
-  for (var index = 0; index < arr.length; index++) {
-    var element = arr[index]
-    if (value[element]) {
-      value = value[element]
-    } else {
-      return undefined
-    }
-  }
-  return value
-}
-
-// 模板插值处理
-_owo.innerTextHandle = function (pageFunction) {
-  var linkList = pageFunction.$el.querySelectorAll('[o-innertext]')
-  for (var ind = 0; ind < linkList.length; ind++) {
-    var element = linkList[ind]
-    var dataFor = element.getAttribute("o-innertext")
-    // 获取对应的值
-    var value = _owo.getValFromObj(dataFor, pageFunction)
-    // 从全局获取值!
-    if (value == undefined) { value = _owo.getValFromObj(dataFor) }
-    element.innerText = value
   }
 }
 

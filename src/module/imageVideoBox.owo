@@ -1,7 +1,7 @@
 <template lang="pug">
 .image-video-box
   img.show-image(src="http://www.people.com.cn/NMediaFile/2019/1012/MAIN201910120902473975100096200.jpg")
-  video(src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/enter.mp4", :tap="pause", :ended="ended")
+  video(src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/owo/enter.mp4" controls="controls" playsinline)
   .play-button-box
     img.play-button(src="@|play-button.png|", :tap="play")
 </template>

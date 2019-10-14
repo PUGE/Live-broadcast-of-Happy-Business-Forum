@@ -172,7 +172,7 @@ module.exports = {
     alertLink: false,
     route: {
       // 永远从第一页开始
-      startAtHome: false
+      startAtHome: true
     },
     // 输出配置
     outPut: {
